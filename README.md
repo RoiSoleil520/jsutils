@@ -1,6 +1,6 @@
 # jsUtils
 
-前端业务代码工具库 [jsUtils](https://roisoleil520.github.io/jsutils/docs/index.html)
+前端业务代码工具库 [jsUtils](https://roisoleil520.github.io/jsutils/docs)
 
 > 目的：减少重复造轮子，高效率完成前端业务代码
 
