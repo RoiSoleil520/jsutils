@@ -1,0 +1,42 @@
+{
+    "tags": {
+        "allowUnknownTags": false
+    },
+    "source": {
+        "include": [
+            "src/"
+        ],
+        "exclude": [
+            "src/libs"
+        ],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "opts": {
+        "template": "node_modules/docdash",
+        "encoding": "utf8",
+        "destination": "./docs/",
+        "recurse": true,
+        "verbose": true,
+        "readme": "jsdoc.md"
+    },
+    "docdash": {
+        "static": true,
+        "sort": true,
+        "sectionOrder": [
+            "Classes",
+            "Modules",
+            "Externals",
+            "Events",
+            "Namespaces",
+            "Mixins",
+            "Tutorials",
+            "Interfaces"
+        ],
+        "search": true,
+        "collapse": true,
+        "wrap": true,
+        "typedefs": true,
+        "navLevel": 1
+    }
+}
